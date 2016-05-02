@@ -432,17 +432,7 @@
                                 <format>xml</format>
                             </formats>
                         </configuration>
-                        <exclusions>
-      <exclusion> 
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
-      </exclusion>
-      <exclusion> 
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j</artifactId>
-      </exclusion>
-    </exclusions>
-                    </plugin>
+                       </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
