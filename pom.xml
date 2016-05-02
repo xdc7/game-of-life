@@ -182,7 +182,14 @@
                 <artifactId>easyb-core</artifactId>
                 <version>${easyb.version}</version>
                 <scope>test</scope>
-				<exclusions>
+	</dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+	<dependency>
+		<groupId>com.wakaleo.gameoflife</groupId>
+		<artifactId>gameoflife-web</artifactId>
+		<exclusions>
        <exclusion> 
           <groupId>org.slf4j</groupId>
           <artifactId>slf4j-log4j12</artifactId>
@@ -196,10 +203,8 @@
           <artifactId>log4j</artifactId>
       </exclusion>
     </exclusions> 
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-    <dependencies>
+            
+	</dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
