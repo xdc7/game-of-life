@@ -25,7 +25,7 @@ public class GameController {
         thinkABit(250);
         return mav;
     }
-
+    //comment
     @RequestMapping("/start")
     public ModelAndView firstGeneration(@RequestParam("rows") final int rows,
                                         @RequestParam("columns") final int columns,
